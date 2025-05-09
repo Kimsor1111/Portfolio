@@ -25,13 +25,13 @@ const Home = () => {
         />
       </h1>
       <div className="flex gap-5 mt-5">
-        {social.map(({ icon, path }, index) => (
+        {social.map(({ icon, path, color }, index) => (
           <Link
             to={path}
             key={index}
-            className="md:size-[50px] size-[40px] flex items-center justify-center md:text-2xl text-lg rounded-full bg-white"
+            className="md:size-[50px] size-[40px] flex items-center justify-center md:text-2xl text-lg rounded-full bg-white/10"
           >
-            <FontAwesomeIcon icon={icon} />
+            <FontAwesomeIcon icon={icon} style={{ color: color }} />
           </Link>
         ))}
       </div>
