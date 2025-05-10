@@ -29,7 +29,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <span className="md:hidden" onClick={() => setOpen(!open)}>
+      <span className="md:hidden cursor-pointer" onClick={() => setOpen(!open)}>
         <FontAwesomeIcon icon={faBars} className="text-white text-xl" />
       </span>
       {/* Mobile menu */}
