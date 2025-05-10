@@ -29,7 +29,7 @@ export const Project = [
   },
   {
     title: "Cafe Menu",
-    img: P3,
+    img: P2,
     list: [
       "Interactive café menu website built with React.js and TailwindCSS",
       "Allows users to browse food and drink items by category",
@@ -49,7 +49,7 @@ export const Project = [
   },
   {
     title: "Game Shop",
-    img: P6,
+    img: P3,
     list: [
       "Custom-built game shop website developed using PHP, MySQL, jQuery, and Bootstrap",
       "Implements full CRUD functionality for managing game listings and user data",
@@ -63,7 +63,7 @@ export const Project = [
   },
   {
     title: "Shoes Shop",
-    img: P7,
+    img: P4,
     list: [
       "Shoe shop website built using PHP, MySQL, and Bootstrap",
       "Implements full CRUD operations for managing shoe products",
@@ -77,7 +77,7 @@ export const Project = [
   },
   {
     title: "Porsche Store Clone",
-    img: P2,
+    img: P5,
     list: [
       "Porsche clone built using HTML, CSS, JavaScript, and Bootstrap",
 
@@ -92,7 +92,7 @@ export const Project = [
   },
   {
     title: "LEGO Toy Clone",
-    img: P4,
+    img: P6,
     list: [
       "Lego website homepage clone built using HTML, CSS, JavaScript, and TailwindCSS",
       "Replicates the layout and design of the official Lego homepage",
@@ -106,7 +106,7 @@ export const Project = [
   },
   {
     title: "Playstation Clone",
-    img: P5,
+    img: P7,
     list: [
       "PlayStation homepage clone built using pure HTML, CSS, and JavaScript",
       "Accurately replicates the layout and design of the official PlayStation website",
