@@ -1,11 +1,8 @@
 import { Skills as List } from "../components";
-
+import { skills as Data } from "../data/skills";
 const Skills = () => {
   return (
-    <main
-      className="w-full flex flex-col items-center"
-      style={{ height: "calc(100vh - 70px)" }}
-    >
+    <main className="w-full flex flex-col items-center py-10">
       <h1 className="text-5xl mt-5 mb-10 text-white font-bold tracking-wider">
         Skills
       </h1>
@@ -15,9 +12,9 @@ const Skills = () => {
         have worked with:
       </p>
       <div className="md:w-2/3 w-[90%]">
-        <List />
-        <List />
-        <List />
+        {Data.map(({ title, detail }, index) => (
+          <List key={index} title={title} detail={detail} />
+        ))}
       </div>
     </main>
   );

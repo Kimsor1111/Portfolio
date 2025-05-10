@@ -1,16 +1,22 @@
-import React from "react";
-import img from "./../assets/scss.jpg";
-const Skills = () => {
+const Skills = ({ title, detail }) => {
   return (
     <>
-      <p className="text-center text-white mt-8 lg:text-2xl text-lg font-medium">
-        Languages & Databases
+      <p className="text-center text-white mb-2 mt-10 lg:text-2xl text-lg font-medium">
+        {title}
       </p>
-      <div className="w-full flex flex-wrap gap-y-10 justify-center py-5 ">
-        <div>
-          <img src={img} alt="" className="size-[90px] object-contain" />
-          <p className="text-white font-medium text-center mt-2">Java</p>
-        </div>
+      <div className="w-full flex flex-wrap gap-y-10 gap-x-5 justify-center py-5 ">
+        {detail.map(({ img, name, objectcontain }, index) => (
+          <div key={index} className="flex flex-col items-center">
+            <img
+              src={img}
+              alt=""
+              className={`size-[80px]  ${
+                objectcontain ? "object-contain" : "object-cover"
+              }`}
+            />
+            <p className="text-white font-medium text-center mt-2">{name}</p>
+          </div>
+        ))}
       </div>
     </>
   );
