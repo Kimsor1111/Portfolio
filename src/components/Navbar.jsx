@@ -14,12 +14,20 @@ const Navbar = () => {
           <li key={index}>
             <Link
               to={path}
-              className="text-xl tracking-wider text-[#cccaca] hover:text-white"
+              className="text-xl tracking-wider font-medium text-[#cccaca] hover:text-white"
             >
               {name}
             </Link>
           </li>
         ))}
+        <li>
+          <a
+            href=""
+            className="px-5 text-lg bg-white py-[2px] font-medium rounded "
+          >
+            CV
+          </a>
+        </li>
       </ul>
       <span className="md:hidden" onClick={() => setOpen(!open)}>
         <FontAwesomeIcon icon={faBars} className="text-white text-xl" />
@@ -30,18 +38,26 @@ const Navbar = () => {
           open ? "visible py-5 h-fit opacity-100" : "invisible h-0 opacity-0"
         }`}
       >
-        <ul className="w-full  flex flex-col gap-3">
+        <ul className="w-full items-center flex flex-col gap-3">
           {Data.map(({ name, path }, index) => (
             <li className="flex justify-center" key={index}>
               <Link
                 to={path}
                 onClick={() => setOpen(false)}
-                className=" text-xl tracking-wider text-[#cccaca] hover:text-white"
+                className=" text-xl font-medium tracking-wider text-[#cccaca] hover:text-white"
               >
                 {name}
               </Link>
             </li>
           ))}
+          <li>
+            <a
+              href=""
+              className="px-8 text-lg bg-white py-[2px] font-medium rounded "
+            >
+              CV
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

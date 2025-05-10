@@ -14,15 +14,17 @@ const Home = () => {
       </h1>
       <h1 className="md:text-3xl text-xl text-white tracking-wider">
         I'm{" "}
-        <Typewriter
-          words={["a Website Developer", "a Freelancer"]}
-          loop={0}
-          cursor
-          cursorStyle="|"
-          typeSpeed={70}
-          deleteSpeed={50}
-          delaySpeed={1500}
-        />
+        <p className="font-medium inline">
+          <Typewriter
+            words={["a Website Developer", "a Freelancer"]}
+            loop={0}
+            cursor
+            cursorStyle="|"
+            typeSpeed={80}
+            deleteSpeed={80}
+            delaySpeed={2000}
+          />
+        </p>
       </h1>
       <div className="flex gap-5 mt-5">
         {social.map(({ icon, path, color }, index) => (

@@ -2,7 +2,7 @@ import { Skills as List } from "../components";
 import { skills as Data } from "../data/skills";
 const Skills = () => {
   return (
-    <main className="w-full flex flex-col items-center py-10">
+    <main className="w-full flex flex-col items-center">
       <h1 className="text-5xl mt-5 mb-10 text-white font-bold tracking-wider">
         Skills
       </h1>
