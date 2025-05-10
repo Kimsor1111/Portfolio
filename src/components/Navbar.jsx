@@ -23,7 +23,7 @@ const Navbar = () => {
         <li>
           <a
             href=""
-            className="px-5 text-lg bg-white py-[2px] font-medium rounded "
+            className="px-5 text-xl tracking-wider bg-white py-[2px] font-medium rounded "
           >
             CV
           </a>
