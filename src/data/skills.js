@@ -67,11 +67,11 @@ export const skills = [
         name: "MySQL",
         objectcontain: true,
       },
-      {
-        img: restfulapi,
-        name: "RestfulAPI",
-        objectcontain: true,
-      },
+      // {
+      //   img: restfulapi,
+      //   name: "RestfulAPI",
+      //   objectcontain: true,
+      // },
     ],
   },
   {

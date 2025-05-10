@@ -11,7 +11,7 @@ const Skills = () => {
         are some of the major languages, technologies, tools and platforms I
         have worked with:
       </p>
-      <div className="md:w-2/3 w-[90%]">
+      <div className="md:w-2/3 w-[90%] ">
         {Data.map(({ title, detail }, index) => (
           <List key={index} title={title} detail={detail} />
         ))}
