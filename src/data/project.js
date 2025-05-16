@@ -28,7 +28,7 @@ export const Project = [
     ],
   },
   {
-    title: "Cafe Menu",
+    title: "Cafe Menu Preview",
     img: P2,
     list: [
       "Interactive café menu website built with React.js and TailwindCSS",
@@ -48,7 +48,7 @@ export const Project = [
     ],
   },
   {
-    title: "Game Shop",
+    title: "Electronic Store",
     img: P3,
     list: [
       "Custom-built game shop website developed using PHP, MySQL, jQuery, and Bootstrap",
@@ -62,7 +62,7 @@ export const Project = [
     technologies: ["PHP", "MySQL", "jQuery", "Bootstrap", "SwiperJS"],
   },
   {
-    title: "Shoes Shop",
+    title: "Shoes Store",
     img: P4,
     list: [
       "Shoe shop website built using PHP, MySQL, and Bootstrap",
@@ -76,7 +76,7 @@ export const Project = [
     technologies: ["PHP", "MySQL", "Bootstrap"],
   },
   {
-    title: "Porsche Store Clone",
+    title: "Porsche",
     img: P5,
     list: [
       "Porsche clone built using HTML, CSS, JavaScript, and Bootstrap",
@@ -91,7 +91,7 @@ export const Project = [
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
-    title: "LEGO Toy Clone",
+    title: "LEGO",
     img: P6,
     list: [
       "Lego website homepage clone built using HTML, CSS, JavaScript, and TailwindCSS",
@@ -105,7 +105,7 @@ export const Project = [
     technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "SwiperJS"],
   },
   {
-    title: "Playstation Clone",
+    title: "Playstation",
     img: P7,
     list: [
       "PlayStation homepage clone built using pure HTML, CSS, and JavaScript",
