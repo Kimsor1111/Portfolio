@@ -12,6 +12,7 @@ import git from "./../assets/git.jpg";
 import github from "./../assets/github.jpg";
 import vs from "./../assets/vs.jpg";
 import vercel from "./../assets/vercel.svg";
+import netlify from "./../assets/netlify.jpg";
 import cp from "./../assets/cp.jpg";
 export const skills = [
   {
@@ -95,6 +96,11 @@ export const skills = [
       {
         img: vercel,
         name: "Vercel",
+        objectcontain: true,
+      },
+      {
+        img: netlify,
+        name: "Netlify",
         objectcontain: true,
       },
       {
