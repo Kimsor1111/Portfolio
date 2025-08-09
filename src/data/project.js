@@ -5,7 +5,52 @@ import P4 from "./../assets/Project/p4.jpg";
 import P5 from "./../assets/Project/p5.jpg";
 import P6 from "./../assets/Project/p6.jpg";
 import P7 from "./../assets/Project/p7.jpg";
+import P8 from "./../assets/Project/p8.jpg";
+import P9 from "./../assets/Project/p9.jpg";
 export const Project = [
+  {
+    title: "PteasDecor",
+    img: P9,
+    list: [
+      "It focuses on showcasing beautiful home decoration products with a user-friendly ReactJS interface.",
+      "It saves you time by providing a well-organized folder structure and reusable components.",
+      "It embraces best practices like component-based architecture and responsive design.",
+      "Collaborated in a team of 3 members to plan, design, and develop the site",
+    ],
+    github: "https://github.com/Kimsor1111/PteasDecor",
+    live: "https://pteasdecor.netlify.app/",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "React Router",
+      "React Redux",
+      "TailwindCSS",
+      "Vite",
+    ],
+  },
+  {
+    title: "Armaf",
+    img: P8,
+    list: [
+      "Elegant and luxury-inspired UI matching Armaf's brand style.",
+      "Fully responsive design for mobile, tablet, and desktop.",
+      "Reusable components for products, categories, and banners.",
+      "Optimized navigation and product display for a smooth shopping experience.",
+    ],
+    github: "https://github.com/Kimsor1111/Armaf",
+    live: "https://armaf.vercel.app/",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "React Router",
+      "TailwindCSS",
+      "Vite",
+    ],
+  },
   {
     title: "JapanSouq",
     img: P1,
@@ -23,6 +68,7 @@ export const Project = [
       "CSS",
       "JavaScript",
       "ReactJS",
+      "React Router",
       "TailwindCSS",
       "Vite",
     ],
@@ -44,43 +90,43 @@ export const Project = [
       "JavaScript",
       "TailwindCSS",
       "ReactJS",
+      "React Router",
       "ReactSlick",
     ],
   },
-  {
-    title: "Electronic Store",
-    img: P3,
-    list: [
-      "Custom-built game shop website developed using PHP, MySQL, jQuery, and Bootstrap",
-      "Implements full CRUD functionality for managing game listings and user data",
-      "Interactive sliders and carousels integrated using SwiperJS",
-      "Responsive design with modern layout optimized for all devices",
-      "Combines dynamic backend operations with a smooth and engaging frontend experience",
-    ],
-    github: "https://github.com/Kimsor1111/GameShopBackend",
-    live: "http://ec1.infinityfreeapp.com",
-    technologies: ["PHP", "MySQL", "jQuery", "Bootstrap", "SwiperJS"],
-  },
-  {
-    title: "Shoes Store",
-    img: P4,
-    list: [
-      "Shoe shop website built using PHP, MySQL, and Bootstrap",
-      "Implements full CRUD operations for managing shoe products",
-      "Admin panel to create, update, and delete product listings",
-      "Responsive and clean UI designed with Bootstrap for all devices",
-      "Focuses on backend data handling and dynamic content management",
-    ],
-    github: "https://github.com/Kimsor1111/ShoesShopBackend",
-    live: "http://ec2.infinityfreeapp.com",
-    technologies: ["PHP", "MySQL", "Bootstrap"],
-  },
+  // {
+  //   title: "Electronic Store",
+  //   img: P3,
+  //   list: [
+  //     "Custom-built game shop website developed using PHP, MySQL, jQuery, and Bootstrap",
+  //     "Implements full CRUD functionality for managing game listings and user data",
+  //     "Interactive sliders and carousels integrated using SwiperJS",
+  //     "Responsive design with modern layout optimized for all devices",
+  //     "Combines dynamic backend operations with a smooth and engaging frontend experience",
+  //   ],
+  //   github: "https://github.com/Kimsor1111/GameShopBackend",
+  //   live: "http://ec1.infinityfreeapp.com",
+  //   technologies: ["PHP", "MySQL", "jQuery", "Bootstrap", "SwiperJS"],
+  // },
+  // {
+  //   title: "Shoes Store",
+  //   img: P4,
+  //   list: [
+  //     "Shoe shop website built using PHP, MySQL, and Bootstrap",
+  //     "Implements full CRUD operations for managing shoe products",
+  //     "Admin panel to create, update, and delete product listings",
+  //     "Responsive and clean UI designed with Bootstrap for all devices",
+  //     "Focuses on backend data handling and dynamic content management",
+  //   ],
+  //   github: "https://github.com/Kimsor1111/ShoesShopBackend",
+  //   live: "http://ec2.infinityfreeapp.com",
+  //   technologies: ["PHP", "MySQL", "Bootstrap"],
+  // },
   {
     title: "Porsche",
     img: P5,
     list: [
       "Porsche clone built using HTML, CSS, JavaScript, and Bootstrap",
-
       "Collaborated in a team of 4 members to plan, design, and develop the site",
       "Showcases projects, skills, and contact information in a clean layout",
       "Fully customizable sections for easy updates and personalization",
