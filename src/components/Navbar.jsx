@@ -3,6 +3,7 @@ import { Navbar as Data } from "./../data/navbar";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Cv from "./../assets/CV2.docx";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -22,7 +23,8 @@ const Navbar = () => {
         ))}
         <li>
           <a
-            href=""
+            href={Cv}
+            download="CV2.docx"
             className="px-5 text-xl tracking-wider bg-white py-[2px] font-medium rounded "
           >
             CV
@@ -52,8 +54,9 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href=""
-              className="px-8 text-lg bg-white py-[2px] font-medium rounded "
+              href={Cv}
+              download="CV2.docx"
+              className="px-8 text-lg bg-white py-[2px] font-medium rounded"
             >
               CV
             </a>
