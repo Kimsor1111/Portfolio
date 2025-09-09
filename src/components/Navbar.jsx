@@ -3,7 +3,7 @@ import { Navbar as Data } from "./../data/navbar";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Cv from "./../assets/CV2.docx";
+import Cv from "./../assets/cv.pdf";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -24,7 +24,7 @@ const Navbar = () => {
         <li>
           <a
             href={Cv}
-            download="CV2.docx"
+            download="cv.pdf"
             className="px-5 text-xl tracking-wider bg-white py-[2px] font-medium rounded "
           >
             CV
